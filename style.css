@@ -1,0 +1,175 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+    
+
+}
+
+li {
+    float: right;
+    
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+       
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h2 {
+    font-size: 54px;
+}
+/*
+.tabs {
+    background-color: #ffffff;
+    border: solid #cccccc;
+    
+}
+*/
+
+.header {
+    overflow: hidden;
+    background-color: #4aaaa5;
+    padding: 20px 10px;
+}
+
+.header a {
+    float: left;
+    background-color: #4aaaa5;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    border-color: #cccccc;
+}
+
+.header a.name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #dddd;
+    color: black;
+}
+/*  Might be fun to add
+.header a.active {
+    background-color: #4aaaa5;
+    color: white;
+}*/
+
+.header-right {
+    float: right;
+}
+
+.name {
+    clear: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+.intro {
+    height: 0 auto;
+    width: 0 auto;
+    margin: auto;
+    background: url("#") no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: left;
+    width: 0 auto;
+    max-width: none;
+}
+
+.btn {
+    border-radius: 1px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777777;
+    font-size: 200%;
+    padding: 7px 15px;
+    border-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    z-index: -1;
+}
+
+.btn:hover {
+    color:#333;
+    border-style: none;
+}
+
+.me {
+    border-style: hidden;
+   
+}
+
+#name {
+    clear: float;
+    display: block;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+    float: left;
+    font-size: 24px;
+    border-style: hidden;
+    
+}
+
+#picture {
+    padding: 10px 20px;
+    float: left;
+}
+
+#bio {
+    letter-spacing: auto;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+    align-content: inherit;
+    width: auto;
+    
+}
+
+#extra {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+@media screen and (max-width: 960px) {
+    .content h1 {
+        font-size: 250%;
+    }
+    .btn {
+        font-size: 110%;
+        padding: 7px 15px;
+    }
+    p {
+        font-size: 100%;
+        line-height: 160%;
+    }
+}
